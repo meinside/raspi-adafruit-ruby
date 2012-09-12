@@ -1,4 +1,9 @@
-raspi-adafruit-ruby
-===================
+# Small ruby code snippets for Raspberry Pi peripherals from Adafruit #
+by Sungjin Han <meinside@gmail.com>
 
-Small ruby code snippets for Raspberry Pi peripherals from Adafruit
+## Description ##
+
+Ruby scripts for various Raspberry Pi peripherals from Adafruit
+
+* * *
+
