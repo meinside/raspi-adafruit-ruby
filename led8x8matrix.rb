@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 # coding: UTF-8
 
+# led8x8matrix.rb
+#
 # test script for
 # Adafruit's 8x8 LED matrix (http://adafruit.com/products/959)
 #
