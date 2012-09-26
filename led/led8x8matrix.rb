@@ -9,15 +9,15 @@
 # * prerequisite: http://www.skpang.co.uk/blog/archives/575
 # 
 # created on : 2012.09.12
-# last update: 2012.09.12
+# last update: 2012.09.26
 # 
 # by meinside@gmail.com
 
 require "rubygems"
 
 # need 'i2c' gem installed
-require "i2c/i2c.rb"
-require "i2c/backends/i2c-dev.rb"
+require "i2c/i2c"
+require "i2c/backends/i2c-dev"
 
 # referenced: 
 #   https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code/blob/master/Adafruit_LEDBackpack/Adafruit_LEDBackpack.py
