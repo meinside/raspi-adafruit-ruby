@@ -9,7 +9,7 @@
 # * prerequisite: http://www.skpang.co.uk/blog/archives/575
 # 
 # created on : 2012.09.12
-# last update: 2012.09.26
+# last update: 2012.11.01
 # 
 # by meinside@gmail.com
 
@@ -37,7 +37,9 @@ class AdafruitLED8x8Matrix
   MAX_COL = 8
   MAX_ROW = 8
 
-  def initialize(device = "/dev/i2c-0", address = 0x70, options = {blink_rate: HT16K33_BLINKRATE_OFF, brightness: 15})
+  # *** I2C device = '/dev/i2c-0' on rev.1 boards
+  # *** I2C device = '/dev/i2c-1' on rev.2 boards
+  def initialize(device = "/dev/i2c-1", address = 0x70, options = {blink_rate: HT16K33_BLINKRATE_OFF, brightness: 15})
     if device.kind_of? String
       @device = ::I2C.create(device)
     else
