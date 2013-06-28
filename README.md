@@ -5,6 +5,33 @@ by Sungjin Han <meinside@gmail.com>
 
 Ruby scripts for various Raspberry Pi peripherals from Adafruit
 
+### Instructions ###
+
+#### a. setup i2c ####
+
+``$ sudo modprobe i2c_dev``
+
+``$ sudo vi /etc/modules``
+
+```
+# Add following line:
+
+i2c-dev
+```
+
+``$ sudo vi /etc/modprobe.d/raspi-blacklist.conf ``
+
+```
+# Comment out following lines:
+
+blacklist spi-bcm2708
+blacklist i2c-bcm2708
+```
+
+``$ sudo apt-get install i2c-tools``
+
+``$ sudo usermod -a -G i2c USERNAME``
+
 ### License ###
 
 Copyright (c) 2012, Sungjin Han <meinside@gmail.com>
