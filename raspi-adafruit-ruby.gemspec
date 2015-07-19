@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob('lib/**/*')
   s.homepage    = 'https://github.com/alexspeller/raspi-adafruit-ruby'
   s.license       = 'MIT'
+  s.add_runtime_dependency 'i2c', '>= 0.2.22'
 end
