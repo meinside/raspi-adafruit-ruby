@@ -33,7 +33,7 @@ blacklist i2c-bcm2708
 ``$ sudo usermod -a -G i2c USERNAME``
 
 
-# Install gem
+#### b. Install gem
 
 `gem install raspi-adafruit-ruby`
 
